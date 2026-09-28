@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# WhatsApp Session / Database (CRÍTICO: nunca comitar sessões)
+*.db
+*.db-shm
+*.db-wal
+whatsapp_session.db*
+
+# Environment & Config
+.env
+discloud.token
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
